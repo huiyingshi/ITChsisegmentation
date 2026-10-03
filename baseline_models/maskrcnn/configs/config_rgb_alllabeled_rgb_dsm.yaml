@@ -1,0 +1,19 @@
+# RGB + DSM Mask R-CNN experiment on the all-labeled dataset.
+dataset_root: "/home/huiying/Documents/ITCsegmentation/Data/DatasetNew/processed/rgb_alllabeled_1024_stride256_png"
+ann_train: "/home/huiying/Documents/ITCsegmentation/Data/DatasetNew/processed/rgb_alllabeled_1024_stride256_png/annotations/train.json"
+ann_val: "/home/huiying/Documents/ITCsegmentation/Data/DatasetNew/processed/rgb_alllabeled_1024_stride256_png/annotations/val.json"
+ann_test: "/home/huiying/Documents/ITCsegmentation/Data/DatasetNew/processed/rgb_alllabeled_1024_stride256_png/annotations/test.json"
+
+dsm_normalization: "max"
+
+lr: 0.0001
+momentum: 0.9
+weight_decay: 0.0005
+num_epochs: 100
+save_every_epochs: 10
+seed: 0
+
+save_ckpt_path: "/home/huiying/Documents/ITCsegmentation/Code/Output/maskrcnn_rgb_dsm_alllabeled/seed_0"
+num_classes: 2 # background + tree
+batch_size: 1
+num_workers: 0

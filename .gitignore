@@ -1,0 +1,11 @@
+.venv/
+venv/
+*/venv/
+**/venv/
+__pycache__/
+*.py[cod]
+.env
+
+# Downloaded model weights
+pretrain_models/sam_vit_base/*.safetensors
+pretrain_models/sam_vit_base/*.bin

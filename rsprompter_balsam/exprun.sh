@@ -1,0 +1,1 @@
+uv run python /home/huiying/Documents/ITCsegmentation/Code/BalSAM/rsprompter_balsam/tools/train.py configs/rsprompter/rsprompter_anchor-trees-pca3-dsm-alllabeled.py
